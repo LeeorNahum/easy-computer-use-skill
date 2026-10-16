@@ -1,6 +1,7 @@
 # easy-computer-use-skill
 
-Agent Skill that tells an agent in any harness how to drive the user's real Chrome and Windows desktop through two existing MCP servers: [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) and [Windows-MCP](https://github.com/CursorTouch/Windows-MCP).
+Agent Skill that tells an agent in any harness how to drive the user's Windows desktop through an existing MCP server, [Windows-MCP](https://github.com/CursorTouch/Windows-MCP). Its sibling, [easy-browser-use](https://github.com/LeeorNahum/easy-browser-use-skill), covers the user's Chrome.
 
-- `SKILL.md`: which server to use, the setup, and the traps of each
+- `SKILL.md`: the order of calls and the traps
+- `references/setup.md`: registering the server
 - `AGENTS.md`: rules for editing this skill
